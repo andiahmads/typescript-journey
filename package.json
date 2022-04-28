@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "rm -rf build/ && tsc",
     "ts": "del -f build && tsc -w",
-    "dev": "nodemon ./build/test.js"
+    "dev": "nodemon ./build/src/typescript-dasar/function.js"
   },
   "repository": {
     "type": "git",
