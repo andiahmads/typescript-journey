@@ -42,3 +42,9 @@ enum Month {
     JAN="JANUARI", FEB="FEBUARI",MAR="MARET",APR="APRIL",MEI="MEI",JUNE="JUNE",JUL="JUL"
 }
 console.log(Month.JAN)
+
+
+// type data union
+let phone: number | string
+phone =89898989
+phone = "helllo"

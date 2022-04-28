@@ -35,3 +35,7 @@ var Month;
     Month["JUL"] = "JUL";
 })(Month || (Month = {}));
 console.log(Month.JAN);
+// type data union
+let phone;
+phone = 89898989;
+phone = "helllo";
