@@ -24,5 +24,21 @@ array2 = ["jeruk","buah"]
 
 
 
+//tuple
+let biodata: [string,number]
+biodata = ["surabaya",123]
+// biodata = ["surabaya",true] //error
 
-// console.log(nama);
+
+//enum 
+//tipe data yg menyimpan data constannya di level applikasi
+// enum Month {
+//     JAN, FEB,MAR,APR,MEI,JUNE,JUL
+// }
+// console.log(Month.JAN)
+
+
+enum Month {
+    JAN="JANUARI", FEB="FEBUARI",MAR="MARET",APR="APRIL",MEI="MEI",JUNE="JUNE",JUL="JUL"
+}
+console.log(Month.JAN)
