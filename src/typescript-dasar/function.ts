@@ -42,6 +42,14 @@ const add : Tambah = (val1:number,val2:number) : number =>{
 }
 
 
+
+//optional parameters
+
+//hanya bisa di eksekusi ketika returnnya string
+const getUmur = (val1:number,val2?:number) : string =>{
+    return val1+""+val2
+}
+
 function Main() : void {
     console.log("from add =",add(1,3))
     console.log("getName =",getName())
@@ -49,10 +57,14 @@ function Main() : void {
     console.log("getNumber",getNumber(1))
     console.log(Multi(1,2))
     getNameWithoutReturn()
+
+
     
     const result = Multi(1,2)
     const res = stringReversed("andi")
+
     
+    console.log(getUmur(1))
     console.log(res)
     console.log(result)
 }
