@@ -26,6 +26,11 @@ function Multi(a, b) {
 const add = (val1, val2) => {
     return val1 + val2;
 };
+//optional parameters
+//hanya bisa di eksekusi ketika returnnya string
+const getUmur = (val1, val2) => {
+    return val1 + "" + val2;
+};
 function Main() {
     console.log("from add =", add(1, 3));
     console.log("getName =", getName());
@@ -35,6 +40,7 @@ function Main() {
     getNameWithoutReturn();
     const result = Multi(1, 2);
     const res = stringReversed("andi");
+    console.log(getUmur(1));
     console.log(res);
     console.log(result);
 }
